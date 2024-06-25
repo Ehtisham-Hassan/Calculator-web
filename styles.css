@@ -1,0 +1,123 @@
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: rgb(16, 16, 16);
+}
+
+.container {
+    text-align: center;
+    margin-top: 5%;
+}
+
+table {
+    margin-top: 23px;
+    margin: center;
+}
+
+button {
+    cursor: pointer;
+    font-size: 30px;
+    width: 100px;
+    height: 50px;
+    margin: 5px;
+    text-align: center;
+    background-color: rgb(31, 90, 142);
+    border: none;
+    box-shadow: 3px 3px rgb(169, 164, 15),
+        2px 2px rgb(169, 164, 15);
+    border-radius: 12px;
+    border: 2px solid rgba(0, 0, 0, 0.548);
+}
+
+input {
+    margin: 2px 0px 0px 0;
+    font-size: 33.2px;
+    padding: 2px 5px;
+    border: none;
+    width: 430px;
+    height: 50px;
+    background: rgb(0 0 0 / 68%);
+    /* box-shadow: 2px 2px 0px 0px rgb(255 132 17); */
+    border-radius: 10px;
+    border: 2px solid rgb(113, 3, 3); 
+    outline: none;
+    color: rgba(255, 255, 255, 0.748);
+}
+
+button:hover {
+    background-color: rgba(7, 36, 255, 0.17);
+}
+
+button:active {
+    box-shadow: -2px -2px rgb(169, 164, 15);
+    width: 99px;
+    height: 49px;
+    border-color: rgb(255, 153, 0);
+}
+
+.calculator {
+    margin-top: 10px;
+    display: inline-block;
+    background: #d5d5d51c;
+    border-radius: 14px;
+    padding: 8px;
+}
+
+#backspacebtn {
+    width: 98%;
+}
+
+h1 {
+    color: white;
+}
+
+@media screen and (min-width: 0px) and (max-width:600px) {
+    .container {
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    .calculator {
+        width: 70%;
+        box-sizing: border-box;
+    }
+
+    input {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    tbody,
+    tr,
+    table {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    button {
+        width: 90%;
+    }
+
+    button:active {
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width:430px) {
+    .calculator {
+        width: 90%;
+    }
+
+    button {
+        width: 80%;
+        font-size: 25px;
+    }
+
+    button:active {
+        width: 80%;
+    }
+}
